@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Wedbsite Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ----------------NAVBAR START-------------- -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="" class="active-link"><img src="images/home.png" alt=""><span>Home</span></a></li>
+                <li><a href=""><img src="images/network.png" alt=""><span>My Network</span></a></li>
+                <li><a href=""><img src="images/jobs.png" alt=""><span>Jobs</span></a></li>
+                <li><a href=""><img src="images/message.png" alt=""><span>Messaging</span></a></li>
+                <li><a href=""><img src="images/notification.png" alt=""><span>Notification</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-1.JPG" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+        <!-- ------------------PROFILE-DROPDOWN-MENU--------------- -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.JPG" alt="profile-pic">
+                    <div>
+                        <h3>Lee Nkosi</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+        <!-- ----------------NAVBAR END-------------- -->
+
+        <div class="container">
+            <!-- ------------LEFT-SIDEBAR------------ -->
+            <div class="left-sidebar">
+                <div class="sidebar-profile-box">
+                    <img src="images/cover-pic.jpg" alt="" width="100%">
+                    <div class="sidebar-profile-info">
+                        <img src="images/user-1.JPG" alt="">
+                        <h1>Thulee Nkosi</h1>
+                        <h3>Digital Marketing Specialist</h3>
+                        <ul>
+                            <li>Your profile views <span>3.2K</span> </li>
+                            <li>Your post views <span>14K</span> </li>
+                            <li>Your connections <span>7.4K</span> </li>
+
+                        </ul>
+                    </div>
+                    <div class="sidebar-profile-link">
+                        <a href=""><img src="images/items.png" alt="">My items</a>
+                        <a href=""><img src="images/premium.png" alt="">Try premium</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-activity">
+                    <h3>Recent</h3>
+                    <a href=""><img src="images/recent.png" alt="">Web Development</a>
+                    <a href=""><img src="images/recent.png" alt="">User Interface</a>
+                    <a href=""><img src="images/recent.png" alt="">Online Learning</a>
+                    <a href=""><img src="images/recent.png" alt="">Learn Online</a>
+                    <a href=""><img src="images/recent.png" alt="">Code Better</a>
+                    <a href=""><img src="images/recent.png" alt="">Group Learning</a>
+                    <h3>GROUPS</h3>
+                    <a href=""><img src="images/group.png" alt="">Web Design Group</a>
+                    <a href=""><img src="images/group.png" alt="">HTML & CSS Learners</a>
+                    <a href=""><img src="images/group.png" alt="">Python & JavaScript Group</a>
+                    <a href=""><img src="images/group.png" alt="">Learn Coding Online</a>
+                    <h3>HASHSTAG</h3>
+                    <a href=""><img src="images/hashtag.png" alt="">webdevelopment</a>
+                    <a href=""><img src="images/hashtag.png" alt="">userinterface</a>
+                    <a href=""><img src="images/hashtag.png" alt="">onlinelearning</a>
+                    <div class="discover-more-link">
+                        <a href="">Discover more</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ------------MAIN-CONTENT------------ -->
+
+            <div class="main-content">
+
+                <div class="create-post">
+                    <div class="create-post-input">
+                        <img src="images/user-1.jpg" alt="">
+                        <textarea rows="2" placeholder="Write a post"></textarea>
+                    </div>
+
+                    <div class="create-post-links">
+                        <li><img src="images/photo.png" alt="">Photo</li>
+                        <li><img src="images/video.png" alt="">Video</li>
+                        <li><img src="images/Event.png" alt="">Event</li>
+                        <li>Post</li>
+                    </div>
+                </div>
+
+                <div class="sort-by">
+                    <hr>
+                    <p>Sort by: <span>top <img src="images/down-arrow.png" alt=""></span></p>
+                </div>
+ <!-- ----------------FIRST-POST------------- -->
+                <div class="post">
+                    <div class="post-author">
+                        <img src="images/user-2.jpg" alt="">
+                        <div>
+                            <h1>Lethu Lord</h1>
+                            <small>Founder and CEO at Gallelio Group | Angel Investor</small>
+                            <small>2 hours ago</small>
+                        </div>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Veritatis doloribus explicabo natus totam nesciunt, quam iure, assumenda id placeat soluta dolor autem, 
+                        aut quidem. Optio itaque necessitatibus ex quod cum!</p>
+                        <img src="images/post-image-1.png" width="100%">
+
+                        <div class="post-stats">
+                            <div>
+                                <img src="images/thumbsup.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/clap.png" alt="">
+                                <span class="liked-users">Khensani Maluleke and 75 others</span>
+                            </div>
+                            <div>
+                                <span>92 comments &middot; 77 shares</span>
+                            </div>
+                        </div>
+
+                        <div class="post-activity">
+                            <div>
+                                <img src="images/user-1.JPG" class="post-activity-user-icon">
+                                <img src="images/down-arrow.png" class="post-activity-user-arrow-icon">
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/like.png">
+                                <span>Like</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/comment.png">
+                                <span>Comment</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/share.png">
+                                <span>Share</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/send.png">
+                                <span>Send</span>
+                            </div>
+                        </div>
+
+                </div>
+
+                <!-- ----------------SECOND-POST------------- -->
+
+                <div class="post">
+                    <div class="post-author">
+                        <img src="images/user-3.JPEG" alt="">
+                        <div>
+                            <h1>Shadi Hoby</h1>
+                            <small>Creative</small>
+                            <small>3 hours ago</small>
+                        </div>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Veritatis doloribus explicabo natus totam nesciunt, quam iure, assumenda id placeat soluta dolor autem, 
+                        aut quidem. Optio itaque necessitatibus ex quod cum!</p>
+                        <img src="images/post-image-2.png" width="100%">
+
+                        <div class="post-stats">
+                            <div>
+                                <img src="images/thumbsup.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/clap.png" alt="">
+                                <span class="liked-users">John Doe and 55 others</span>
+                            </div>
+                            <div>
+                                <span>92 comments &middot; 77 shares</span>
+                            </div>
+                        </div>
+
+                        <div class="post-activity">
+                            <div>
+                                <img src="images/user-1.JPG" class="post-activity-user-icon">
+                                <img src="images/down-arrow.png" class="post-activity-user-arrow-icon">
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/like.png">
+                                <span>Like</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/comment.png">
+                                <span>Comment</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/share.png">
+                                <span>Share</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/send.png">
+                                <span>Send</span>
+                            </div>
+                        </div>
+
+                </div>
+
+                 <!-- ----------------THIRD-POST------------- -->
+
+                 <div class="post">
+                    <div class="post-author">
+                        <img src="images/user-4.JPEG" alt="">
+                        <div>
+                            <h1>Tsakani Baloyi</h1>
+                            <small>Boss Lady</small>
+                            <small>3 hours ago</small>
+                        </div>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Veritatis doloribus explicabo natus totam nesciunt, quam iure, assumenda id placeat soluta dolor autem, 
+                        aut quidem. Optio itaque necessitatibus ex quod cum!</p>
+                        <img src="images/post-image-3.png" width="100%">
+
+                        <div class="post-stats">
+                            <div>
+                                <img src="images/thumbsup.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/clap.png" alt="">
+                                <span class="liked-users">Jack and 88 others</span>
+                            </div>
+                            <div>
+                                <span>92 comments &middot; 77 shares</span>
+                            </div>
+                        </div>
+
+                        <div class="post-activity">
+                            <div>
+                                <img src="images/user-1.JPG" class="post-activity-user-icon">
+                                <img src="images/down-arrow.png" class="post-activity-user-arrow-icon">
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/like.png">
+                                <span>Like</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/comment.png">
+                                <span>Comment</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/share.png">
+                                <span>Share</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/send.png">
+                                <span>Send</span>
+                            </div>
+                        </div>
+
+                </div>
+
+                <!-- ----------------FOURTH-POST------------- -->
+
+                <div class="post">
+                    <div class="post-author">
+                        <img src="images/user-5.JPEG" alt="">
+                        <div>
+                            <h1>Mbali Black</h1>
+                            <small>Web Developer</small>
+                            <small>3 hours ago</small>
+                        </div>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Veritatis doloribus explicabo natus totam nesciunt, quam iure, assumenda id placeat soluta dolor autem, 
+                        aut quidem. Optio itaque necessitatibus ex quod cum!</p>
+                        <img src="images/post-image-4.png" width="100%">
+
+                        <div class="post-stats">
+                            <div>
+                                <img src="images/thumbsup.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/clap.png" alt="">
+                                <span class="liked-users">Mr. Nobody and 124 others</span>
+                            </div>
+                            <div>
+                                <span>92 comments &middot; 77 shares</span>
+                            </div>
+                        </div>
+
+                        <div class="post-activity">
+                            <div>
+                                <img src="images/user-1.JPG" class="post-activity-user-icon">
+                                <img src="images/down-arrow.png" class="post-activity-user-arrow-icon">
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/like.png">
+                                <span>Like</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/comment.png">
+                                <span>Comment</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/share.png">
+                                <span>Share</span>
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="images/send.png">
+                                <span>Send</span>
+                            </div>
+                        </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <!-- ------------RIGHT-SIDEBAR------------ -->
+            <div class="right-sidebar">
+                <div class="sidebar-news">
+                    <img src="images/more.png" class="info-icon" alt="">
+                    <h3>Trending News</h3>
+                    <a href="">High deman for skilled manpower</a>
+                    <span>1d ago &middot; 11,333 readers</span>
+
+                    <a href="">Careers growing horizontally too</a>
+                    <span>19h ago &middot; 15,732 readers</span>
+
+                    <a href="">Less work visa for US, more for UK</a>
+                    <span>7h ago &middot; 19,315 readers</span>
+
+                    <a href="">More hiring = Higher confidence?</a>
+                    <span>3h ago &middot; 25,447 readers</span>
+
+                    <a href="">Shadi Hoby Yani is the biggest brand in the world</a>
+                    <span>2h ago &middot; 90,999 readers</span>
+
+                    <a href="" class="read-more-link">Read More</a>
+
+                </div>
+
+                <div class="sidebar-ad">
+                    <small>Ad &middot; &middot; &middot;</small>
+                    <p>Master the five principles of web design</p>
+                    <div>
+                        <img src="images/user-1.JPG" alt="">
+                        <img src="images/mi-logo.png" alt="">
+                    </div>
+                    <b>Brand and Demand in Xiaomi</b>
+                    <a href="" class="ad-link">Learn More</a>
+                </div>
+
+                <div class="sidebar-useful-links">
+                    <a href="">About</a>
+                    <a href="">Accessibility</a>
+                    <a href="">Help Center</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Advertising</a>
+                    <a href="">Get The App</a>
+                    <a href="">More</a>
+
+                    <div class="copyright-msg">
+                        <img src="images/logo.png" alt="">
+                        <p>Linkedin &#169; 2023. All rights reserved</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    
+</body>
+</html>
